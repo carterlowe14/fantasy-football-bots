@@ -1,6 +1,7 @@
 import sys
 import subprocess
 import os
+import audioop
 
 def check_and_install_dependencies():
     """Check if required packages are installed, install from requirements.txt if missing"""
